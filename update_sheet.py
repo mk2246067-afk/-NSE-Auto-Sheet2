@@ -70,7 +70,7 @@ def fetch_bhavcopy_for_date(date_obj):
 
     try:
 
-        print(k"तारीख {date_str} की फाइल चेक कर रहे हैं...")
+        print(f"तारीख {date_str} की फाइल चेक कर रहे हैं...")
 
         response = requests.get(url, headers=headers, timeout=20)
 
