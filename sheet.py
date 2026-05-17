@@ -42,7 +42,7 @@ client = gspread.authorize(creds)
 
 # ⚠️ अपनी गूगल शीट की ID यहाँ दोबारा डालना न भूलें
 
-spreadsheet_id = "यहाँ_अपनी_शीट_की_ID_डालें" 
+spreadsheet_id = "13Kvaa7OPjjwb-8TCcu4fK9-f_Km7UzSnoS-7lJu_sXA" 
 
 worksheet = client.open_by_key(spreadsheet_id).worksheet("Top 250 Stocks")
 
@@ -70,7 +70,7 @@ def fetch_bhavcopy_for_date(date_obj):
 
     try:
 
-        print(f"तारीख {date_str} की फाइल चेक कर रहे हैं...")
+        print(k"तारीख {date_str} की फाइल चेक कर रहे हैं...")
 
         response = requests.get(url, headers=headers, timeout=20)
 
