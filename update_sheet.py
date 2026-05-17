@@ -197,3 +197,4 @@ if data_to_insert:
         print(f"Google Sheet Error: {str(e)}")
 
 else:
+    print("FAILED: पिछले 7 दिनों में से किसी भी दिन की फाइल नहीं मिली या प्रोसेस नहीं हुई।")
